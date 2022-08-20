@@ -10,7 +10,8 @@ def calc_irr():
         data.append(amount)
 
     irr = round(npf.irr(data), 2)
-    print(irr)
+    print(irr*100)
+
 
 if __name__ == "__main__":
 
